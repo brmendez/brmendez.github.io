@@ -71,6 +71,10 @@ footer {
 	margin-bottom: 14px;
 }
 
+.projects {
+	margin-bottom: 34px;
+}
+
 .projects .thumbnail {
 	box-shadow: none;
 	border: none;

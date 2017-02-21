@@ -1,0 +1,93 @@
+/* TODO:; MEDIA QUERY FOR 467 PX BREAK */
+
+p, h2, h3, li {
+	color: #667;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+.header {
+	letter-spacing: 4px;
+	color: #b6bbbf;
+	margin-bottom: 24px;
+}
+
+footer {
+	margin-bottom: 5px;
+}
+
+.title {
+	font-size: 18px;
+}
+
+.navbar {
+	margin-bottom: 24px;
+}
+
+.navbar-brand, .summary {
+	font: 100 1.75em "Helvetica Neue","Open Sans",sans-serif;
+	text-transform: uppercase;
+}
+
+.summary {
+	font-size: 2.1em;
+}
+
+.profilePic {
+	border-radius: 4px;
+}
+
+.navName, .glyphicon {
+	color: #6eb8f1;
+	fill: #6eb8f1;
+}
+
+.vCard {
+	padding: 0px;
+	list-style: none;
+	
+}
+.vCard .glyphicon {
+	margin-right: 4px;
+}
+
+.lineBreak {
+	border-top: 1px #e5e5e5 solid;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.projects .thumbnail {
+	box-shadow: none;
+	border: none;
+}
+
+@media only screen and (max-width: 467px) { 
+
+	.navName {
+		display: block;
+	}
+	.navbar {
+		height: 94px;
+	}
+	.navPipe {
+		display: none;
+	}
+	/*.vCard .glyphicon {
+		margin-right: 0px;
+	}*/
+}

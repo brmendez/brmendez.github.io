@@ -46,8 +46,9 @@ footer {
 }
 
 .summary {
-	font: 100 2.1em "Helvetica Neue","Open Sans",sans-serif;
+	font: 200 1.45em "Helvetica Neue","Open Sans",sans-serif;
 	text-transform: uppercase;
+	text-align: justify;
 }
 
 .profilePic {
@@ -92,16 +93,14 @@ footer {
 	.glyphicon {
 		margin-left: 4px;
 	}
-	
-	/*.navName {
+
+	.navName {
 		display: block;
 	}
-	.navbar {
-		height: 94px;
-	}
+
 	.navPipe {
 		display: none;
-	}*/
+	}
 }
 
 @media only screen and (max-width: 767px) { 

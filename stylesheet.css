@@ -66,6 +66,9 @@ footer {
 }
 .vCard .glyphicon {
 	margin-right: 4px;
+	height: 14px;
+	width: 14px;
+	vertical-align: inherit;
 }
 
 .lineBreak {
